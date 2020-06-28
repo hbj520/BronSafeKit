@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BronSafeKit_Example' do
+  pod 'BronSafeKit', :path => '../'
+
+  target 'BronSafeKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
