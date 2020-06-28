@@ -7,12 +7,14 @@
 //
 
 #import "BRONAppDelegate.h"
-
+#import "BRONView.h"
 @implementation BRONAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    BRONView *view = [[BRONView alloc] init];
+    
     return YES;
 }
 

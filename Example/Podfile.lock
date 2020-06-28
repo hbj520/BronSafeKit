@@ -1,0 +1,16 @@
+PODS:
+  - BronSafeKit (0.0.1)
+
+DEPENDENCIES:
+  - BronSafeKit (from `../`)
+
+EXTERNAL SOURCES:
+  BronSafeKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BronSafeKit: bb490a8d540aaf6133c068b9f22785aec0f08b32
+
+PODFILE CHECKSUM: 019fa28fea3970437a83cd539cedf115ba855523
+
+COCOAPODS: 1.9.3

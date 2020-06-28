@@ -1,0 +1,6 @@
+framework module BronSafeKit {
+  umbrella header "BronSafeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
